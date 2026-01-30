@@ -13,7 +13,7 @@ import LogCoffeePage from "./pages/LogCoffee/LogCoffeePage.jsx";
 function App() {
 
     return (
-        <>
+        <div className="app">
             <Router>
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
@@ -25,7 +25,7 @@ function App() {
                 </Routes>
             </Router>
             {/*<Coffees/>*/}
-        </>
+        </div>
     )
 }
 

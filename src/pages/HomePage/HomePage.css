@@ -2,6 +2,12 @@
     --accent-gradient: linear-gradient(180deg, #B8D4E3 30%, #9EC1D4 100%);
 }
 
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .header-home h1 {
         flex-shrink: 0;
@@ -20,15 +26,20 @@
 
 .journal-block {
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 
 .content-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 100%;
     justify-content: space-between;
+    margin: 0 16px 120px 16px;
+    padding-right: 32px;
+
 }
 
 .text-container {

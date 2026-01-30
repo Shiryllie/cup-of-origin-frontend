@@ -15,6 +15,7 @@ function NearbyPage() {
             variant="nearby"
         />
         <NearbyMap/>
+        <NavBar/>
     </main>;
 }
 
