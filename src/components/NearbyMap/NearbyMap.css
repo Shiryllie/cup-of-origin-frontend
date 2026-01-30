@@ -1,0 +1,9 @@
+.nearby-map {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    margin: -133px -16px 0 -16px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}

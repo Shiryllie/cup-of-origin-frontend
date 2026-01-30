@@ -1,10 +1,56 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');/**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px;
+  --primary-bg-color: #FFFF;
+  --primary-block-color: #F9F6F2;
+  --primary-font-color: #000000;
+  --secondary-font-color: #5C575E;
+  --accent-font-color: #D0C069;
+  --accent-gradient: linear-gradient(180deg, #b5c8d9 30%, #bce6fd 100%);
+  --button-bg-color: #E84F30;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color-scheme: light;
+  background-color: var(--primary-bg-color);
+  padding: 0 16px;
+}
+
+h1 {
+  flex-shrink: 0;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h2 {
+  flex-shrink: 0;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+
+#root {
+  width: 396.57px;
+  height: 200px;
+  flex-shrink: 0;
+}
 
 
 .logo {
