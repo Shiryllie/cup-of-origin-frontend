@@ -1,0 +1,48 @@
+.favorites-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+}
+
+.favorites-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primary-block-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+    color: var(--primary-font-color);
+    cursor: pointer;
+}
+
+.favorites-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.favorites-coffee-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.favorites-card-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+
+.favorites-card-name-text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.favorites-card-roaster-text {
+    font-size: 10px;
+    font-weight: 400;
+}

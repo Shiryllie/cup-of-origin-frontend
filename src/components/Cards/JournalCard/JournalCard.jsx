@@ -2,11 +2,6 @@ import './JournalCard.css'
 
 function JournalCard({recipe, onClick}) {
     return (
-        <div className="journal-card-container">
-            <div className="journal-header">
-                <h2>📔 My Journal</h2>
-                <h2 className="secondary-text">View all</h2>
-        </div>
             <div className="journal-card" onClick={onClick}>
                 {recipe.image && (
                     <img
@@ -28,7 +23,6 @@ function JournalCard({recipe, onClick}) {
                 <p className="journal-card-notes">{recipe.notes}</p>
                 </div>
             </div>
-        </div>
     );
 }
 
